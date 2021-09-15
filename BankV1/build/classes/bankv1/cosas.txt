@@ -1,0 +1,16 @@
+•Crear cliente (customer) 
+CLIENTE
+•Consultar datos de un cliente
+.CLIENTE
+•Consultar cuentas (account) de
+un cliente. CLIENTE
+•Crear cuenta para cliente
+. CLIENTE
+•Agregar cliente a cuenta.
+CUENTA
+•Consultar datos de una cuenta
+.CUENTA
+•Realizar movimiento (movement)
+sobre una cuenta. CUENTA
+•Consultar movimientos de una 
+cuenta. CUENTA

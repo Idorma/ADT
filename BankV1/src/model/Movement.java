@@ -6,6 +6,7 @@
 package model;
 
 import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Real;
+import java.sql.Date;
 
 /**
  *
@@ -13,8 +14,10 @@ import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Real;
  */
 public class Movement {
     private int Id;
+    private int idAccount;
     //private DatabaseDate timestamp;
-    //private Real amount;
-    //private Real balance;
+    private Date timestamp;
+    private float amount;
+    private float balance;
     private String description;
 }

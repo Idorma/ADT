@@ -14,7 +14,9 @@ import model.*;
 public interface ControladorCustomerInterface {
     //Metodos que van en la implementacion
     
-    public void createCustomer(Customer cust,int Id,String firstName,String lastName,
-    String middleInitial,String street,String city,String state,int zip,int phone,
-    String email)throws Exception;
+    public void createCustomer(Customer cust,int Id,String firstName,
+    String lastName,String middleInitial,String street,String city,
+    String state,int zip,int phone,String email)throws Exception;
+    
+    
 }

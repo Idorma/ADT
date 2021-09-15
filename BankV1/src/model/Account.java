@@ -6,18 +6,23 @@
 package model;
 
 import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Real;
+import java.sql.Date;
 
 
 /**
  *
  * @author idoia
  */
-public class Account {
+public class Account implements java.io.Serializable{
     private int Id;
     private String description;
-    //private Real balance;
-    //private Real creditLine;
-    //private Real beginBalance;
+    private float balance;
+    private float creditLine;
+    private float beginBalance;
     //private DatabaseDate beginBalanceTimestamp;
-    //private AccountType type; //crear clase AccountType
+    private Date beginBalanceTimestamp;
+    private AccountType type;
+
+    
+    
 }
